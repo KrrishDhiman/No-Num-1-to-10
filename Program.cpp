@@ -4,7 +4,7 @@
 
 using namespace std;     
 
-void main()                                                   //The main function
+int main()                                                   //The main function
 {
     string Num_In_String = "-1";
     while(true)
@@ -14,4 +14,6 @@ void main()                                                   //The main functio
         if(Num_In_String=="9")                                //If the value of the Num_In_String is "9", the loop should break.
         break;
     }
+    
+return NULL;
 }
